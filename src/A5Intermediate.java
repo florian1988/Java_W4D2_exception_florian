@@ -16,7 +16,7 @@ public class A5Intermediate {
         try{
 
             if (number > 1 || number  < 10 ){
-                System.out.print(number);
+                System.out.println(number);
                 throw new NumberException();
             }
         } catch( NumberException e){
